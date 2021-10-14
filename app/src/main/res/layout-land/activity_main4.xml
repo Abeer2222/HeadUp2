@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Rotate Device"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/purple_500"
+            android:text="Time: "
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:id="@+id/tvTime"/>
+
+        <TextView
+            android:id="@+id/tvname"
+            android:gravity="center"
+            android:textSize="48sp"
+            android:textColor="@color/purple_500"
+            android:padding="15dp"
+            android:fontFamily="casual"
+            android:background="@color/purple_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tvta1"
+            android:gravity="center"
+            android:textColor="@color/purple_500"
+            android:textSize="30sp"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tvta2"
+            android:gravity="center"
+            android:textColor="@color/purple_500"
+            android:textSize="30sp"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tvta3"
+            android:gravity="center"
+            android:textColor="@color/purple_500"
+            android:textSize="30sp"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
